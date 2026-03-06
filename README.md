@@ -1,0 +1,1 @@
+This project tracks the mathematical model of the electrocardiogram. The language used is Python. Jupyter notebook files with the extension ipynb are used to create it. They allow you to interactively present different types of content in one place, such as graphs, formulas, text, and mathematical calculations.
