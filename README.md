@@ -1,6 +1,6 @@
-Настоящият проект проследява математическия модел на електрокардиограмата. Езикът, който се използва, е Питон. За направата му се използват Jupyter notebook файлове с разширение ipynb. Te дават възможност да се представят по интерактивен начин различен тип съдържание на едно място като графики, формули, текст и математически изчисления.
+This project tracks the mathematical model of the electrocardiogram. The language used is Python. Jupyter notebook files with the extension ipynb are used to create it. They allow different types of content to be presented interactively in one place, such as graphs, formulas, text, and mathematical calculations.
 
-Проектът включва шест файла, на база които се извършва финалния анализ на резултатите. В този финален анализ се представя графично сравнение между пациент с аритмия и такъв с нормални показатели. Файловете, на които стъпва този анализ са:
+The project includes six files, which are used to perform the final analysis of the results. This final analysis presents a graphical comparison between a patient with arrhythmia and one with normal readings. The files on which this analysis is based are:
 - ecg_model
 - signal_generator
 - peak_detection
@@ -8,11 +8,13 @@
 - documentation
 - visualisation
 
-На база на упоменантите файла са изготвени три дема:
-- demo - визуализация на стандартна кардиограма
-- arrhythmia_simulation - симулира пациент с аритмия
-- final_analysis - сравнение между пациент с и без аритмия
+Three demos have been created based on the above files:
+- demo - visualization of a standard cardiogram
+- arrhythmia_simulation - simulates a patient with arrhythmia
+- final_analysis - comparison between a patient with and without arrhythmia
 
-Използваните библиотеки са 
+The libraries used are 
 - numpy
 - matplotlib.pyplot
+
+Translated with DeepL.com (free version)
