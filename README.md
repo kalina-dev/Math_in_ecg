@@ -17,4 +17,3 @@ The libraries used are
 - numpy
 - matplotlib.pyplot
 
-Translated with DeepL.com (free version)
