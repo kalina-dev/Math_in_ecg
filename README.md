@@ -8,7 +8,7 @@ The project includes six files, which are used to perform the final analysis of 
 - documentation
 - visualisation
 
-Three demos have been created based on the above files:
+Four demos have been created based on the above files:
 - normal_beat_simulation - visualization of a standard cardiogram
 - arrhythmia_simulation - simulates a patient with arrhythmia
 - final_analysis - comparison between a patient with and without arrhythmia
