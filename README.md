@@ -12,6 +12,7 @@ Three demos have been created based on the above files:
 - normal_beat_simulation - visualization of a standard cardiogram
 - arrhythmia_simulation - simulates a patient with arrhythmia
 - final_analysis - comparison between a patient with and without arrhythmia
+- other_conditions_analysis - other diseases
 
 The libraries used are 
 - numpy
