@@ -71,7 +71,7 @@ def gaussian(t, mu, sigma, amplitude):
     """
     Gaussian wave function for ECG components
     """
-    """A Gaussian distribution, also known as a normal      distribution, is a continuous probability distribution characterized by its bell-shaped curve. It is defined by two parameters:
+    """A Gaussian distribution, also known as a normal distribution, is a continuous probability distribution characterized by its bell-shaped curve. It is defined by two parameters:
     μ (mu): The mean or expected value of the distribution
     σ (sigma): The standard deviation, which measures the spread of the distribution"""
     return amplitude * np.exp(-((t - mu)**2) / (2 * sigma**2))
