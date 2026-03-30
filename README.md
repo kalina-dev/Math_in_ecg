@@ -6,7 +6,8 @@ The project includes six files, which are used to perform the final analysis of 
 - ecg_visualisation.py
 - ecg_math_model_formulas.ipynb - Latex based
 - documentation.ipynb
-- ecg_config.json - for data storage
+- ecg_config.json - for main analysis external data storage
+- other_conditions_config.json - other conditions data storage
 
 A demo have been created based on the above files:
 - final_analysis - comparison between a patient with and without arrhythmia, anakysis and also other diseases presented
