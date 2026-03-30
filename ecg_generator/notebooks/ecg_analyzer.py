@@ -4,6 +4,9 @@ def detect_r_peaks(signal, time, threshold=0.8):
     """
     Detect R-peaks in ECG signal
     """
+    """
+    Detecting R-peaks in an electrocardiogram (ECG) is the process of identifying the highest point of the QRS complex, which represents the electrical activation (depolarization) of the heart's ventricles. 
+    """
     peaks = []
     peak_times = []
     for i in range(1, len(signal)-1):
@@ -31,6 +34,9 @@ def compute_rr_intervals(peak_times):
 def hrv_statistics(rr_intervals):
     """
     Compute simple HRV metrics: mean and std of RR intervals
+    """
+    """
+    Heart rate variability (HRV) measures the variation in milliseconds (ms) between heartbeats. 
     """
     return np.mean(rr_intervals), np.std(rr_intervals)
     
